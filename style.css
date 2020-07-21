@@ -1,14 +1,27 @@
-.grid {
+* {
+    background-color: black;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     border: solid 1px;
-    width: 300px;
-    height: 300px;
+    border-color: white;
+    width: 600px;
+    height: 600px;
 }
 
-.grid div {
-    width: 20px;
-    height: 20px;
+.container div {
+    width: 40px;
+    height: 40px;
 }
 
 .shooter {
@@ -16,14 +29,14 @@
 }
 
 .invader {
-    background-color: darkviolet;
-    border-radius: 10px;
+    background-color: #8c52ff;
+    border-radius: 20px;
 }
 
 .boom {
-    background-color: darkslateblue;
+    background-color: #4f2e8f;
 }
 
 .laser {
-    background-color: goldenrod;
+    background-color: #e172bf;
 }
