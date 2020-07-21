@@ -25,18 +25,21 @@ h1 {
 }
 
 .shooter {
-    background-color: dimgray;
+    background-image: url(./shooter.png);
+    background-repeat: no-repeat;
 }
 
 .invader {
-    background-color: #8c52ff;
-    border-radius: 20px;
+    background-image: url(./alien.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
 .boom {
-    background-color: #1a0d34;
+    background-color: #301c57;
 }
 
 .laser {
-    background-color: #e172bf;
+    background-image: url(./bullet.png);
+    background-repeat: no-repeat;
 }
