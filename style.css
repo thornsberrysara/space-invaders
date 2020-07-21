@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     font-family: 'Press Start 2P';
     font-size: 30px;
-    animation: blinker 1s linear infinite;
+    animation: blinker 2s linear infinite;
 }
 
 @keyframes blinker {
@@ -53,7 +53,8 @@ h2 {
 }
 
 .boom {
-    background-color: #301c57;
+    background-color: goldenrod;
+    border-radius: 20px;
 }
 
 .laser {
